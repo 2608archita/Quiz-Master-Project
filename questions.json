@@ -1,0 +1,262 @@
+[
+  {
+    "Question": "Which of the following is not a valid data type in Python?",
+    "Options": ["int", "float", "double", "str"],
+    "Answer": "double"
+  },
+  {
+    "Question": "What does HTML stand for?",
+    "Options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Tabular Markup Language", "Home Tool Markup Language"],
+    "Answer": "Hyper Text Markup Language"
+  },
+  {
+    "Question": "Which symbol is used for single-line comments in JavaScript?",
+    "Options": ["//", "#", "--", "/*"],
+    "Answer": "//"
+  },
+  {
+    "Question": "What is the correct way to declare a variable in Java?",
+    "Options": ["variable x;", "var x;", "int x;", "x = int;"],
+    "Answer": "int x;"
+  },
+  {
+    "Question": "Which language is known as the 'mother of all programming languages'?",
+    "Options": ["C", "Assembly", "Fortran", "ALGOL"],
+    "Answer": "C"
+  },
+  {
+    "Question": "What does CSS stand for?",
+    "Options": ["Computer Style Sheets", "Creative Style Sheets", "Cascading Style Sheets", "Colorful Style Sheets"],
+    "Answer": "Cascading Style Sheets"
+  },
+  {
+    "Question": "Which of these is not a JavaScript framework?",
+    "Options": ["React", "Angular", "Django", "Vue"],
+    "Answer": "Django"
+  },
+  {
+    "Question": "What is the output of 'print(2**3)' in Python?",
+    "Options": ["6", "8", "9", "23"],
+    "Answer": "8"
+  },
+  {
+    "Question": "Which data structure uses FIFO (First In First Out) principle?",
+    "Options": ["Stack", "Queue", "Array", "Tree"],
+    "Answer": "Queue"
+  },
+  {
+    "Question": "What does SQL stand for?",
+    "Options": ["Structured Query Language", "Simple Query Language", "Standard Query Language", "Sequential Query Language"],
+    "Answer": "Structured Query Language"
+  },
+  {
+    "Question": "Which operator is used for exponentiation in Python?",
+    "Options": ["^", "**", "^^", "*"],
+    "Answer": "**"
+  },
+  {
+    "Question": "What is the correct file extension for Python files?",
+    "Options": [".pyt", ".py", ".pt", ".python"],
+    "Answer": ".py"
+  },
+  {
+    "Question": "Which of these is not a valid loop in C++?",
+    "Options": ["for", "while", "do-while", "repeat-until"],
+    "Answer": "repeat-until"
+  },
+  {
+    "Question": "What is the time complexity of binary search?",
+    "Options": ["O(n)", "O(n^2)", "O(log n)", "O(1)"],
+    "Answer": "O(log n)"
+  },
+  {
+    "Question": "Which language is used for Android app development?",
+    "Options": ["Java", "C#", "Python", "Swift"],
+    "Answer": "Java"
+  },
+  {
+    "Question": "What does API stand for?",
+    "Options": ["Application Programming Interface", "Advanced Programming Interface", "Application Program Interaction", "Automated Programming Interface"],
+    "Answer": "Application Programming Interface"
+  },
+  {
+    "Question": "Which of these is not a primitive data type in Java?",
+    "Options": ["int", "boolean", "String", "char"],
+    "Answer": "String"
+  },
+  {
+    "Question": "What is the correct way to create a function in JavaScript?",
+    "Options": ["function = myFunction()", "function myFunction()", "create myFunction()", "def myFunction()"],
+    "Answer": "function myFunction()"
+  },
+  {
+    "Question": "Which tag is used to create a hyperlink in HTML?",
+    "Options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+    "Answer": "<a>"
+  },
+  {
+    "Question": "What is the output of 'console.log(typeof null)' in JavaScript?",
+    "Options": ["null", "undefined", "object", "string"],
+    "Answer": "object"
+  },
+  {
+    "Question": "Which of these is not a valid variable name in Python?",
+    "Options": ["my_var", "_myvar", "1myvar", "myVar"],
+    "Answer": "1myvar"
+  },
+  {
+    "Question": "What is the correct syntax to output 'Hello World' in Python?",
+    "Options": ["print('Hello World')", "console.log('Hello World')", "System.out.println('Hello World')", "echo 'Hello World'"],
+    "Answer": "print('Hello World')"
+  },
+  {
+    "Question": "Which of these is not a valid access modifier in Java?",
+    "Options": ["public", "private", "protected", "internal"],
+    "Answer": "internal"
+  },
+  {
+    "Question": "What does DOM stand for in web development?",
+    "Options": ["Document Object Model", "Data Object Model", "Display Object Model", "Document Oriented Model"],
+    "Answer": "Document Object Model"
+  },
+  {
+    "Question": "Which method is used to add an element at the end of an array in JavaScript?",
+    "Options": ["push()", "pop()", "shift()", "unshift()"],
+    "Answer": "push()"
+  },
+  {
+    "Question": "What is the correct way to create a class in Python?",
+    "Options": ["class MyClass:", "create class MyClass", "new class MyClass", "def class MyClass:"],
+    "Answer": "class MyClass:"
+  },
+  {
+    "Question": "Which of these is not a valid relational operator in C?",
+    "Options": ["==", "!=", "=<", ">="],
+    "Answer": "=<"
+  },
+  {
+    "Question": "What is the default value of a boolean variable in Java?",
+    "Options": ["true", "false", "null", "0"],
+    "Answer": "false"
+  },
+  {
+    "Question": "Which symbol is used to access object properties in JavaScript?",
+    "Options": [".", "->", "::", ":"],
+    "Answer": "."
+  },
+  {
+    "Question": "What is the correct syntax to declare a constant in JavaScript (ES6)?",
+    "Options": ["constant x = 5;", "const x = 5;", "let x = 5;", "var x = 5;"],
+    "Answer": "const x = 5;"
+  },
+  {
+    "Question": "Which of these is not a valid way to declare a function in JavaScript?",
+    "Options": ["function myFunc() {}", "var myFunc = function() {}", "let myFunc = () => {}", "def myFunc() {}"],
+    "Answer": "def myFunc() {}"
+  },
+  {
+    "Question": "What is the correct way to include an external JavaScript file in HTML?",
+    "Options": ["<script href='file.js'>", "<script src='file.js'>", "<javascript src='file.js'>", "<link src='file.js'>"],
+    "Answer": "<script src='file.js'>"
+  },
+  {
+    "Question": "Which method is used to convert a string to uppercase in JavaScript?",
+    "Options": ["toUpperCase()", "toUpper()", "upperCase()", "convertUpper()"],
+    "Answer": "toUpperCase()"
+  },
+  {
+    "Question": "What is the correct way to write an IF statement in Python?",
+    "Options": ["if x > y then:", "if (x > y)", "if x > y:", "if x > y {}"],
+    "Answer": "if x > y:"
+  },
+  {
+    "Question": "Which of these is not a valid HTTP request method?",
+    "Options": ["GET", "POST", "FETCH", "DELETE"],
+    "Answer": "FETCH"
+  },
+  {
+    "Question": "What is the correct way to create an object in JavaScript?",
+    "Options": ["var obj = new Object();", "var obj = {};", "var obj = Object.create();", "All of the above"],
+    "Answer": "All of the above"
+  },
+  {
+    "Question": "Which operator is used for string concatenation in Python?",
+    "Options": ["+", "&", "||", "concat"],
+    "Answer": "+"
+  },
+  {
+    "Question": "What is the correct way to create a comment in CSS?",
+    "Options": ["// comment", "/* comment */", "<!-- comment -->", "# comment"],
+    "Answer": "/* comment */"
+  },
+  {
+    "Question": "Which of these is not a valid JavaScript data type?",
+    "Options": ["number", "string", "boolean", "character"],
+    "Answer": "character"
+  },
+  {
+    "Question": "What is the correct syntax to create a function in PHP?",
+    "Options": ["function myFunction() {}", "def myFunction() {}", "create function myFunction() {}", "func myFunction() {}"],
+    "Answer": "function myFunction() {}"
+  },
+  {
+    "Question": "Which method is used to parse a string to an integer in JavaScript?",
+    "Options": ["parseInt()", "int()", "toInteger()", "convertToInt()"],
+    "Answer": "parseInt()"
+  },
+  {
+    "Question": "What is the correct way to create a list in Python?",
+    "Options": ["list = []", "list = list()", "list = {}", "Both A and B"],
+    "Answer": "Both A and B"
+  },
+  {
+    "Question": "Which of these is not a valid Python operator?",
+    "Options": ["//", "**", "%%", "!="],
+    "Answer": "%%"
+  },
+  {
+    "Question": "What is the correct way to check if a key exists in a Python dictionary?",
+    "Options": ["if key in dict:", "if dict.has_key(key):", "if dict.exists(key):", "if dict[key]:"],
+    "Answer": "if key in dict:"
+  },
+  {
+    "Question": "Which method is used to remove the last element from an array in JavaScript?",
+    "Options": ["pop()", "push()", "shift()", "remove()"],
+    "Answer": "pop()"
+  },
+  {
+    "Question": "What is the correct way to create a multiline string in Python?",
+    "Options": ["Using triple quotes (''' or \"\"\")", "Using backslash at end of line", "Using square brackets", "Using newline character"],
+    "Answer": "Using triple quotes (''' or \"\"\")"
+  },
+  {
+    "Question": "Which of these is not a valid way to declare a variable in JavaScript?",
+    "Options": ["var x = 5;", "let x = 5;", "const x = 5;", "int x = 5;"],
+    "Answer": "int x = 5;"
+  },
+  {
+    "Question": "What is the correct way to round a number to 2 decimal places in JavaScript?",
+    "Options": ["Math.round(num, 2)", "num.round(2)", "Math.round(num * 100) / 100", "round(num, 2)"],
+    "Answer": "Math.round(num * 100) / 100"
+  },
+  {
+    "Question": "Which of these is not a valid Python data structure?",
+    "Options": ["list", "tuple", "array", "dictionary"],
+    "Answer": "array"
+  },
+  {
+    "Question": "What is the correct way to create a promise in JavaScript?",
+    "Options": ["new Promise(function(resolve, reject) {})", "Promise.create(function(resolve, reject) {})", "promise(function(resolve, reject) {})", "new promise(function(resolve, reject) {})"],
+    "Answer": "new Promise(function(resolve, reject) {})"
+  },
+  {
+    "Question": "Which method is used to convert a JavaScript object to a JSON string?",
+    "Options": ["toJSON()", "stringify()", "parse()", "convertToJSON()"],
+    "Answer": "stringify()"
+  },
+  {
+    "Question": "What is the correct way to create a new array by mapping over an existing array in JavaScript?",
+    "Options": ["array.map(function(item) {})", "array.forEach(function(item) {})", "array.filter(function(item) {})", "array.newMap(function(item) {})"],
+    "Answer": "array.map(function(item) {})"
+  }
+]

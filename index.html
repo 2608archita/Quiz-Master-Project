@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master Pro</title>
+    <!-- Correct CSS linking for Flask -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="/static/images/Screenshot 2025-05-25 120852.png" alt="Archita Sahoo">
+            <h3>Archita Sahoo</h3>
+            <p>The Quiz Architect</p>
+        </div>
+        <div class="sidebar-links">
+            <a href="/" class="active"><i class="fas fa-home"></i> Home</a>
+            <a href="/quiz"><i class="fas fa-question-circle"></i> Take Quiz</a>
+            <a href="/scores"><i class="fas fa-trophy"></i> High Scores</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="container">
+            <div class="welcome-screen">
+                <div class="logo">
+                    <i class="fas fa-brain"></i>
+                    <h1>Quiz Master Pro</h1>
+                    <p>Test your knowledge with our interactive quiz platform</p>
+                </div>
+                
+                <div class="welcome-actions">
+                    <a href="/quiz" class="btn-primary">
+                        <i class="fas fa-play"></i> Start Quiz
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <script src="{{ url_for('static', filename='animations.js') }}"></script>
+</body>
+</html>

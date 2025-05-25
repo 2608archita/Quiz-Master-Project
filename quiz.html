@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master Pro | Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="/static/images/Screenshot 2025-05-25 120852.png" alt="Archita Sahoo">
+            <h3>Archita Sahoo</h3>
+            <p>Project Collaborator</p>
+        </div>
+        <div class="sidebar-links">
+            <a href="/"><i class="fas fa-home"></i> Home</a>
+            <a href="/quiz" class="active"><i class="fas fa-question-circle"></i> Take Quiz</a>
+            <a href="/scores"><i class="fas fa-trophy"></i> High Scores</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="quiz-container">
+            <div id="quiz-setup">
+                <h2><i class="fas fa-cog"></i> Quiz Setup</h2>
+                
+                <div class="form-group">
+                    <label for="username"><i class="fas fa-user"></i> Your Name:</label>
+                    <input type="text" id="username" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="category"><i class="fas fa-list"></i> Select Category:</label>
+                    <select id="category">
+                        {% for key, value in categories.items() %}
+                            <option value="{{ key }}">
+                                <i class="fas {{ value.icon }}"></i> {{ value.name }}
+                            </option>
+                        {% endfor %}
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="question-count"><i class="fas fa-question-circle"></i> Number of Questions (5-30):</label>
+                    <input type="range" id="question-count" min="5" max="30" value="15">
+                    <span id="count-display">15</span>
+                </div>
+                
+                <button id="start-btn" class="btn-primary">
+                    <i class="fas fa-play"></i> Start Quiz
+                </button>
+            </div>
+
+            <div id="quiz-interface" style="display:none;">
+                <div id="quiz-header">
+                    <span id="current-score">Score: 0</span>
+                    <span id="question-counter">Question: 1/15</span>
+                </div>
+                
+                <div id="question-container">
+                    <div id="question-text"></div>
+                    <div id="options-container"></div>
+                </div>
+                
+                <div id="quiz-progress">
+                    <div id="progress-bar"></div>
+                </div>
+            </div>
+
+            <div id="quiz-results" style="display:none;">
+                <h2>Quiz Completed!</h2>
+                <div id="result-details"></div>
+                <button id="retry-btn" class="btn-primary">
+                    <i class="fas fa-redo"></i> Try Again
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

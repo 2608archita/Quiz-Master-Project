@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Master Pro | High Scores</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="profile">
+            <img src="/static/images/Screenshot 2025-05-25 120852.png" alt="Archita Sahoo">
+            <h3>Archita Sahoo</h3>
+            <p>Project Collaborator</p>
+        </div>
+        <div class="sidebar-links">
+            <a href="/"><i class="fas fa-home"></i> Home</a>
+            <a href="/quiz"><i class="fas fa-question-circle"></i> Take Quiz</a>
+            <a href="/scores" class="active"><i class="fas fa-trophy"></i> High Scores</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="scores-container">
+            <h1><i class="fas fa-trophy"></i> High Scores</h1>
+            
+            {% if scores %}
+            <div class="scores-table-container">
+                <table class="scores-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Name</th>
+                            <th>Score</th>
+                            <th>Category</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for score in scores %}
+                        <tr>
+                            <td>{{ loop.index }}</td>
+                            <td>{{ score.username }}</td>
+                            <td>{{ score.score }}/{{ score.total }} ({{ ((score.score/score.total)*100)|round }}%)</td>
+                            <td>{{ categories[score.category].name }}</td>
+                            <td>{{ score.date }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="no-scores">
+                <i class="fas fa-info-circle"></i>
+                <p>No scores yet. Be the first to take the quiz!</p>
+                <a href="/quiz" class="btn-primary">
+                    <i class="fas fa-play"></i> Take Quiz Now
+                </a>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='animations.js') }}"></script>
+</body>
+</html>
